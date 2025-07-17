@@ -1,6 +1,6 @@
 # Reinforced-Variable-Selection
 
-This repository is the official implementation of the paper "Reinforced Variable Selection".
+This repository is the official implementation of the paper ["Reinforced Variable Selection"](https://doi.org/10.1080/24754269.2025.2516346) in *Statistical Theory* *and* *Related* Fields*.
 
 ## Example code
 
