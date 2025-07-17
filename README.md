@@ -1,26 +1,11 @@
 # Reinforced-Variable-Selection
 
-This repository is the official implementation of the paper "Reinforced Variable Selection via Natural Policy Gradient".
+This repository is the official implementation of the paper "Reinforced Variable Selection".
 
-## Requirements
+## Example code
 
-- Python version: Python 3.6.8 :: Anaconda custom (64-bit)
+The `classification.ipynb` and `regression.ipynb` are used to demonstrate our method.
 
-### Main packages for the proposed estimator
+## Reproducibility
 
-- numpy == 1.18.1
-- pandas == 1.0.3
-- sklearn == 0.22.1
-- pytorch == 1.4.0
-
-### Additional packages for experiments
-
-- os
-- sys
-- random
-- matplotlib
-
-### Hardware
-
-- Precision Tower 7910
-- CPU：Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz （2 physical CPUs with 10 cores each）
+The `synthetic_data_analysis` and `real_data_analysis` contain codes of experiments in the paper. The `npg_results` contains the data run by codes above. You can run `figures.py` to reproduce the figures in the paper.
